@@ -40,15 +40,6 @@ yes Y | sudo dpkg --add-architecture i386
 yes Y | sudo apt-get update
 yes Y | sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"
 yes Y | sudo apt-get update
-echo  -e "${RED}Installation: gcleaner${NC}"
-yes y\n | sudo add-apt-repository ppa:vala-team
-yes y | sudo apt-get update
-yes y | sudo apt-get install pkg-config libgranite-dev libindicator3-dev libkeybinder-3.0-dev libvte-2.90-dev libvala-0.24-* valac-0.24* cmake bzr
-cd /tmp
-bzr branch lp:gcleaner
-cd gcleaner && cmake .
-make 
-yes y | sudo make install
 echo  -e "${RED}Installation: gparted${NC}"
 yes y | sudo apt-get install gparted
 echo  -e "${RED}Installation: openshot${NC}"
