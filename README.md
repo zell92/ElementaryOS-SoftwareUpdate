@@ -44,8 +44,8 @@ cd /home/$USERNAME/
 
 Start the script, typing this command on terminal:
 ```
-sudo chmod 777 ggpl.sh 
-./ggpl.sh
+sudo chmod 777 bestSoftware.sh 
+./bestSoftware.sh
 ```
 
 ### Step 4:
