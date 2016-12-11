@@ -6,6 +6,7 @@ A script to update elementary os softwares
 * pantheon mail
 * Audience
 * Noise<br>
+**
 ## Software installed
 * Google chrome
 * Thunderbird
