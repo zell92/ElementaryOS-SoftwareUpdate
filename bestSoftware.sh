@@ -5,9 +5,8 @@ NC='\033[0m' # No Color
 set -e
 echo  -e "${RED}System Update:${NC}"
 sudo apt-get update
-yes y | sudo apt install software-properties-gtk software-properties-common
+yes y | sudo apt install software-properties-common
 yes y | sudo apt-get update
-yes y | sudo apt-get install ubuntu-restricted-extras p7zip gdebi synaptic menulibre dconf-tools
 echo  -e "${RED}Remove: epiphany${NC}"
 yes Y | sudo apt-get remove epiphany-browser
 echo  -e "${RED}Installation: chrome${NC}"
