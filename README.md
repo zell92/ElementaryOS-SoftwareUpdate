@@ -1,12 +1,12 @@
 # ElementaryOS-SoftwareUpdate
 A script to update elementary os softwares
 
-##Software removed:
+## Software removed:
 * Epiphany browser
 * pantheon mail
 * Audience
 * Noise
-##Software installed
+## Software installed
 * Google chrome
 * Thunderbird
 * VLC
