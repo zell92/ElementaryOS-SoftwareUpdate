@@ -5,7 +5,7 @@ A script to update elementary os softwares
 * Epiphany browser
 * pantheon mail
 * Audience
-* Noise
+* Noise<br>
 ## Software installed
 * Google chrome
 * Thunderbird
