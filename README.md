@@ -24,6 +24,7 @@ A script to update elementary os softwares
 * OpenShot
 * Spotify
 * TLP
+* GDEBI
 
 ## Installation
 
