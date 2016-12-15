@@ -60,6 +60,9 @@ yes y\n | sudo add-apt-repository ppa:linrunner/tlp
 yes y |sudo apt-get update 
 yes y |sudo apt-get install tlp tlp-rdw
 yes y |sudo tlp start
+echo  -e "${RED}Installation: gdebi${NC}"
+yes Y |sudo apt install gdebi
+
 
 
 
